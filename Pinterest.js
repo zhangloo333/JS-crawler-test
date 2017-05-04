@@ -6,7 +6,7 @@ var fs = require('fs');
 var app = express();
 var port = 8000;
 
-request(url)
+request(url,function(e))
 
 app.listen(port,function(){
 	console.log('runnung servre on port' + port);
